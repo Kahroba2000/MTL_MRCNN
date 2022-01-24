@@ -9,7 +9,7 @@ This repository includes:
 
 # Getting Started
 For training your own model, follows the instruction below:
-1- Generate a jointly annotated dataset (in COCO format with .JSON extention). The dataset contains the objects class annotation, segmentation and attributes. You can use www.ai-console.com for this.
+1- Generate a jointly annotated dataset (in COCO format with .JSON extention). The dataset contains the objects class annotation, segmentation and attributes. You can use www.ai-console.com for this./n
 2- Rename the dataset to dataset.json and replace it with the one in the main directory.
 3- Open the Config_default.ini and set the directories and parameters.
 4- Run the Dataset.ipynb jupyter notebook to download the images on your local machine and also spliting the dataset.
