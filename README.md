@@ -23,7 +23,7 @@ For **running** the model follow the instruction below:
 4. Open the Run.ipynb script, set the hyperparamerts (e.g. _DETECTION_MIN_CONFIDENCE_) if needed, and then run the code.
 
 
-# Examples of model application
+# Examples
 This model is tested for two challenges of age estimation and also head pose estimation. Three public datasets of Prima and BIWI (for head pose estimation), and UTKFace for age estimation is used.
 The weight of the trained model on Prima dataset is avaiable at here.
 
