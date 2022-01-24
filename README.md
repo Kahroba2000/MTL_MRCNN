@@ -8,13 +8,20 @@ This repository includes:
 * Jupyter notbooks for training and inference
 
 # Getting Started
-For training your own model, follows the instruction below:
+For **training** your own model, follows the instruction below:
 1. Generate a jointly annotated dataset (in COCO format with .JSON extention). The dataset contains the objects class annotation, segmentation and attributes. You can use www.ai-console.com for this.
 2. Rename the dataset to dataset.json and replace it with the one in the main directory.
 3. Open the Config_default.ini and set the directories and parameters.
 4. Run the Dataset.ipynb jupyter notebook to download the images on your local machine and also spliting the dataset.
 5. Download the pre-trained COCO weight from here, and plce it in your **../files/logs** directory.
 6. Open the Train.ipynp script, change the hyperparamerts at Shapeconfig class if needed, and run the script.
+
+For **running** the model follow the instruction below:
+1. Place the weight file in the main directory.
+2. Rename it to Weight.h5.
+3. place the images those need to be inferred at **../images** folder.
+4. Open the Run.ipynb script, set the hyperparamerts (e.g. DETECTION_MIN_CONFIDENCE) if needed, and then run the code.
+
 
 # Age Estimation
 Our model is tested in the UTKFace dataset, for face detection and age estimation. 
