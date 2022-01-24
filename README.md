@@ -23,7 +23,12 @@ For **running** the model follow the instruction below:
 4. Open the Run.ipynb script, set the hyperparamerts (e.g. DETECTION_MIN_CONFIDENCE) if needed, and then run the code.
 
 
-# Age Estimation
-Our model is tested in the UTKFace dataset, for face detection and age estimation. 
+# Examples of model application
+This model is tested for two challenges of age estimation and also head pose estimation. Three public datasets of Prima and BIWI (for head pose estimation), and UTKFace for age estimation is used.
+The weight of the trained model on Prima dataset is avaiable at here.
 
+* Some success example of the model on age estimation on UTKFace dataset.
+![image](https://user-images.githubusercontent.com/45915632/150688616-bd134d70-2966-4358-b8ba-8dab1d6d3a7a.png)
+
+* Some success example of the model on pose estimation on Prima dataset.
 ![image](https://user-images.githubusercontent.com/45915632/150688616-bd134d70-2966-4358-b8ba-8dab1d6d3a7a.png)
