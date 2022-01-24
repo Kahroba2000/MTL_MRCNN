@@ -24,8 +24,8 @@ For **running** the model follow the instruction below:
 
 
 # Examples
-This model is tested for two challenges of age estimation and also head pose estimation. Three public datasets of Prima and BIWI (for head pose estimation), and UTKFace for age estimation is used.
-The weight of the trained model on Prima dataset is avaiable at here.
+This model is tested for two challenges of age estimation and also head pose estimation. Three public datasets of _Prima_ and _BIWI_ (for head pose estimation), and _UTKFace_ for age estimation is used.
+The weight of the trained model on _Prima_ dataset is avaiable at here.
 
 * Some success example of the model on age estimation on UTKFace dataset.
 ![image](https://user-images.githubusercontent.com/45915632/150688616-bd134d70-2966-4358-b8ba-8dab1d6d3a7a.png)
