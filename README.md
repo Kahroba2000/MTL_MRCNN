@@ -20,7 +20,7 @@ For **running** the model follow the instruction below:
 1. Place the weight file in the main directory.
 2. Rename it to Weight.h5.
 3. place the images those need to be inferred at **../images** folder.
-4. Open the Run.ipynb script, set the hyperparamerts (e.g. -DETECTION_MIN_CONFIDENCE-) if needed, and then run the code.
+4. Open the Run.ipynb script, set the hyperparamerts (e.g. _DETECTION_MIN_CONFIDENCE_) if needed, and then run the code.
 
 
 # Examples of model application
