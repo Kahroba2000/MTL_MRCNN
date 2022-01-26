@@ -1,6 +1,9 @@
 # MTL_MRCNN for Object Detection, Segmentation, and Attribute Extraction
 This model is a multitask object detection model, developed on top of MRCNN model.This model detect objects within the images, perform segmentation and extract meaningful attribute from the image. The model is validated on head detection and pose estimation.  
 
+![Pose](https://user-images.githubusercontent.com/45915632/151156639-3787c960-bfb0-4f31-a40a-0b9ca786e0b8.png)
+
+
 This repository includes:
 * Source codes of MTL_MRCNN, built on Mask Regional CNN (MRCNN)
 * The trained weight for head detection and pose estimation (Trained on Prima dataset)
@@ -28,7 +31,4 @@ This model is tested for two challenges of age estimation and also head pose est
 The weight of the trained model on _Prima_ dataset is avaiable at here.
 
 * Some success example of the model on age estimation on UTKFace dataset.
-![image](https://user-images.githubusercontent.com/45915632/150688616-bd134d70-2966-4358-b8ba-8dab1d6d3a7a.png)
-
-* Some success example of the model on pose estimation on Prima dataset.
 ![image](https://user-images.githubusercontent.com/45915632/150688616-bd134d70-2966-4358-b8ba-8dab1d6d3a7a.png)
