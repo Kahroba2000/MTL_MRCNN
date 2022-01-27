@@ -11,6 +11,21 @@ This repository includes:
 * Jupyter notbooks for training and inference
 
 # Getting Started
+For getting started, install the required packages as listed below:
+
+-numpy
+-scipy
+-Pillow
+-cython
+-matplotlib
+-scikit-image
+-tensorflow>=1.3.0
+-keras>=2.0.8
+-opencv-python
+-h5py
+-imgaug
+-pycocotool
+
 For **training** your own model, follows the instruction below:
 1. Generate a jointly annotated dataset (in COCO format with .JSON extention). The dataset contains the objects class annotation, segmentation and attributes. You can use www.ai-console.com for this.
 2. Rename the dataset to dataset.json and replace it with the one in the main directory.
@@ -28,7 +43,7 @@ For **running** the model follow the instruction below:
 
 # Examples
 This model is tested for two challenges of age estimation and also head pose estimation. Three public datasets of _Prima_ and _BIWI_ (for head pose estimation), and _UTKFace_ for age estimation is used.
-The weight of the trained model on _BIWI_ dataset is avaiable at here.
+The weight of the trained model on _BIWI_ dataset is avaiable at [here](https://www.mediafire.com/file/k82dbxe2roxlu5v/Weight.h5/file).
 For running the trained model, downlaod the weight file and follow the _running_ section as explained above.
 
 * Some success example of the model on pose estimation on Prima and BIWI datasets.
