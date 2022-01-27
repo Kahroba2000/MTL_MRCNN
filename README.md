@@ -13,18 +13,18 @@ This repository includes:
 # Getting Started
 For getting started, install the required packages as listed below:
 
--numpy
--scipy
--Pillow
--cython
--matplotlib
--scikit-image
--tensorflow>=1.3.0
--keras>=2.0.8
--opencv-python
--h5py
--imgaug
--pycocotool
+- numpy
+- scipy
+- Pillow
+- cython
+- matplotlib
+- scikit-image
+- tensorflow>=1.3.0
+- keras>=2.0.8
+- opencv-python
+- h5py
+- imgaug
+- pycocotool
 
 For **training** your own model, follows the instruction below:
 1. Generate a jointly annotated dataset (in COCO format with .JSON extention). The dataset contains the objects class annotation, segmentation and attributes. You can use www.ai-console.com for this.
