@@ -16,7 +16,7 @@ For **training** your own model, follows the instruction below:
 2. Rename the dataset to dataset.json and replace it with the one in the main directory.
 3. Open the Config_default.ini and set the directories and parameters.
 4. Run the Dataset.ipynb jupyter notebook to download the images on your local machine and also spliting the dataset.
-5. Download the pre-trained COCO weight from ![here]("https://www.mediafire.com/file/rhcz0oblz22fdrw/mask_rcnn_coco.h5/file"), and plce it in your **../files/logs** directory.
+5. Download the pre-trained COCO weight from [here]("https://www.mediafire.com/file/rhcz0oblz22fdrw/mask_rcnn_coco.h5/file"), and plce it in your **../files/logs** directory.
 6. Open the Train.ipynp script, change the hyperparamerts at Shapeconfig class if needed, and run the script.
 
 For **running** the model follow the instruction below:
