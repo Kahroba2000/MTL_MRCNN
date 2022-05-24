@@ -1,7 +1,10 @@
 # MTL_MRCNN for Object Detection, Segmentation, and Attribute Extraction
 This model is a multitask object detection model, developed on top of MRCNN model.This model detect objects within the images, perform segmentation and extract meaningful attribute from the image. The model is validated on head detection and pose estimation.  
 
-![overview](https://user-images.githubusercontent.com/45915632/151227703-29a5eeb8-eeb3-4b9e-b2b9-ebe162d01875.png)
+
+![MTL_MRCNN](https://user-images.githubusercontent.com/45915632/169989388-5835f89a-75fb-445e-82e0-a9c0251a8313.png)
+
+
 
 
 This repository includes:
