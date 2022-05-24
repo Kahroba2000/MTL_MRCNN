@@ -51,7 +51,3 @@ For running the trained model, downlaod the weight file and follow the _running_
 
 * Some success example of the model on pose estimation on Prima and BIWI datasets.
 ![Pose](https://user-images.githubusercontent.com/45915632/151156639-3787c960-bfb0-4f31-a40a-0b9ca786e0b8.png)
-
-
-* Some success example of the model on age estimation on UTKFace dataset.
-![image](https://user-images.githubusercontent.com/45915632/150688616-bd134d70-2966-4358-b8ba-8dab1d6d3a7a.png)
